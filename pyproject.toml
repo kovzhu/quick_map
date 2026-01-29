@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "quick-map"
+version = "0.1.0"
+description = "A tool to generat a map with folium for a dataframe"
+authors = ["Kunfeng <kovkov@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+folium = "^0.20.0"
+pandas = "^3.0.0"
+
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
